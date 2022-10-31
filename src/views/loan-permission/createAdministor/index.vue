@@ -65,7 +65,7 @@ export default {
             let {name,password,role_id} = this.ruleForm;
             let info = {account:name,password,role_id}
             this.$store.dispatch('permission/submitCreate',info);
-            this.$router.push('/layout/loan-permission-listShow')
+            this.$router.push('/layout/loan-permission/listShow')
           } else {
             this.$message({
               type:'error',
