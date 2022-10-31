@@ -6,12 +6,10 @@
 
 <script>
 export default {
-  name:'App',
+    name:'Approve',
 }
 </script>
 
 <style>
-body{
-  margin: 0;
-}
+
 </style>
